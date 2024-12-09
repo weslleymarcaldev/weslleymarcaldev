@@ -22,4 +22,4 @@
 
 ## 📫 Conecte-se comigo
 - **LinkedIn**: [weslleymarcal](https://www.linkedin.com/in/weslleymarcal)
-- **E-mail**: [seu-email@gmail.com](mailto:seu-email@gmail.com)
+- **E-mail**: [weslley@wm.dev.br](mailto:weslley@wm.dev.br)
