@@ -3,6 +3,7 @@
 💻 **Desenvolvedor Web** com experiência em JavaScript, jQuery, MySQL e Golang.  
 🎓 **Estudante de Ciência da Computação** na Estácio de Sá em Belo Horizonte.  
 🌐 **LinkedIn**: [weslleymarcal](https://www.linkedin.com/in/weslleymarcal)
+🌐 Tecnologias: JavaScript, Golang, C#, React, MySQL e PostgreSQL. 
 
 ## 🚀 Projetos Destacados
 
@@ -18,3 +19,7 @@
 ## 🏆 Conquistas
 
 ![Conquistas do GitHub de Weslley Marçal](https://github-profile-trophy.vercel.app/?username=weslleymarcaldev&theme=dracula)
+
+## 📫 Conecte-se comigo
+- **LinkedIn**: [weslleymarcal](https://www.linkedin.com/in/weslleymarcal)
+- **E-mail**: [seu-email@gmail.com](mailto:seu-email@gmail.com)
