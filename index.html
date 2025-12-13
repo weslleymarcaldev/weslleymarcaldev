@@ -1,112 +1,140 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+<!DOCTYPE html><html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio - Weslley Marçal</title>
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-        body {
-            background-color: #f4f4f9;
-        }
-        header {
-            background-color: #333;
-            color: white;
-            padding: 2rem 0;
-            text-align: center;
-        }
-        .card {
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 1rem 0;
-            margin-top: 2rem;
-        }
-        .btn-primary {
-            background-color: #007bff;
-            border: none;
-        }
-        .btn-primary:hover {
-            background-color: #0056b3;
-        }
-    </style>
-</head>
-<body>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Weslley Marçal | Desenvolvedor Backend / Full Stack</title>  <!-- SEO básico -->  <meta name="description" content="Portfólio de Weslley Marçal, Desenvolvedor Backend / Full Stack focado em APIs REST, Go, Node.js e bancos relacionais." />  <!-- Bootstrap CSS -->  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />  <style>
+    body {
+      background-color: #f4f6f9;
+      color: #212529;
+    }
 
-<header>
-    <h1>👋 Olá! Eu sou Weslley Marçal</h1>
-    <p>Desenvolvedor Web | Estudante de Ciência da Computação</p>
-</header>
+    header {
+      background: linear-gradient(135deg, #1f2933, #111827);
+      color: #fff;
+      padding: 4rem 1rem;
+    }
 
-<section class="container my-5">
-    <h2 class="text-center mb-4">🚀 Meus Projetos</h2>
-    <div class="row">
-        <!-- Projeto 1 -->
-        <div class="col-md-4">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title">Bootcamp Frontend</h5>
-                    <p class="card-text">Projeto do Bootcamp Inter Frontend Developer.</p>
-                    <a href="https://github.com/weslleymarcaldev/dioFrontend" class="btn btn-primary" target="_blank">Ver no GitHub</a>
-                </div>
-            </div>
-        </div>
-        <!-- Projeto 2 -->
-        <div class="col-md-4">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title">CRUD em Golang</h5>
-                    <p class="card-text">Aplicação CRUD desenvolvida em Go com integração ao MySQL.</p>
-                    <a href="https://github.com/weslleymarcaldev/crud-go" class="btn btn-primary" target="_blank">Ver no GitHub</a>
-                </div>
-            </div>
-        </div>
-        <!-- Projeto 3 -->
-        <div class="col-md-4">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title">Jogo da Velha</h5>
-                    <p class="card-text">Jogo da velha interativo desenvolvido em JavaScript.</p>
-                    <a href="https://github.com/weslleymarcaldev/JogoDaVelha" class="btn btn-primary" target="_blank">Ver no GitHub</a>
-                </div>
-            </div>
-        </div>
+    header h1 {
+      font-weight: 700;
+    }
+
+    header p {
+      max-width: 720px;
+      margin: 1rem auto 0;
+      font-size: 1.1rem;
+      opacity: 0.9;
+    }
+
+    section {
+      padding: 3rem 0;
+    }
+
+    .card {
+      border: none;
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+      transition: transform 0.25s ease, box-shadow 0.25s ease;
+      height: 100%;
+    }
+
+    .card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);
+    }
+
+    .badge {
+      font-weight: 500;
+    }
+
+    footer {
+      background-color: #111827;
+      color: #9ca3af;
+      padding: 2rem 1rem;
+      text-align: center;
+      font-size: 0.9rem;
+    }
+
+    a {
+      text-decoration: none;
+    }
+  </style></head>
+<body>  <!-- HERO -->  <header class="text-center">
+    <h1>Weslley Marçal</h1>
+    <h5 class="mt-3">Desenvolvedor Backend / Full Stack</h5>
+    <p>
+      Atuo no desenvolvimento de APIs REST, lógica de negócio e integração com bancos de dados relacionais.
+      Foco em código limpo, organização de projetos e soluções práticas.
+    </p>
+    <div class="d-flex justify-content-center gap-3 mt-4">
+      <a href="https://www.linkedin.com/in/weslleymarcal" target="_blank" class="btn btn-primary">LinkedIn</a>
+      <a href="mailto:weslley@wm.dev.br" class="btn btn-outline-light">Contato</a>
     </div>
-</section>
-
-<section class="container my-5">
-    <h2 class="text-center mb-4">📫 Contato</h2>
-    <div class="text-center">
-        <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/weslleymarcal" target="_blank">weslleymarcal</a></p>
-        <p><strong>E-mail:</strong> <a href="mailto:weslley@wm.dev.br">weslley@wm.dev.br</a></p>
+  </header>  <!-- STACK -->  <section class="container">
+    <h2 class="text-center mb-4">⚙️ Stack Principal</h2>
+    <div class="d-flex flex-wrap justify-content-center gap-2">
+      <span class="badge bg-dark">Go</span>
+      <span class="badge bg-dark">Node.js</span>
+      <span class="badge bg-dark">JavaScript</span>
+      <span class="badge bg-dark">React</span>
+      <span class="badge bg-dark">PostgreSQL</span>
+      <span class="badge bg-dark">MySQL</span>
+      <span class="badge bg-dark">Git</span>
+      <span class="badge bg-dark">APIs REST</span>
     </div>
-</section>
+  </section>  <!-- PROJETOS -->  <section class="container">
+    <h2 class="text-center mb-5">🚀 Projetos em Destaque</h2>
+    <div class="row g-4"><div class="col-md-4">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">CRUD em Go</h5>
+        <p class="card-text">
+          API REST desenvolvida em Go, com operações CRUD, organização por camadas
+          e persistência em banco de dados relacional.
+        </p>
+        <a href="https://github.com/weslleymarcaldev/crud-go" target="_blank" class="btn btn-primary">Ver no GitHub</a>
+      </div>
+    </div>
+  </div>
 
-<footer>
-    <p>© 2024 Weslley Marçal. Todos os direitos reservados.</p>
-</footer>
+  <div class="col-md-4">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Bootcamp Frontend (DIO)</h5>
+        <p class="card-text">
+          Projeto desenvolvido no Bootcamp Inter Frontend Developer,
+          aplicando conceitos de frontend moderno e consumo de APIs.
+        </p>
+        <a href="https://github.com/weslleymarcaldev/dioFrontend" target="_blank" class="btn btn-primary">Ver no GitHub</a>
+      </div>
+    </div>
+  </div>
 
-<!-- Bootstrap JS -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-<!-- JavaScript interativo -->
-<script>
-    document.addEventListener('DOMContentLoaded', function () {
-        const cards = document.querySelectorAll('.card');
-        cards.forEach(card => {
-            card.addEventListener('mouseenter', () => {
-                card.style.transform = 'scale(1.05)';
-                card.style.transition = 'transform 0.3s';
-            });
-            card.addEventListener('mouseleave', () => {
-                card.style.transform = 'scale(1)';
-            });
-        });
-    });
-</script>
+  <div class="col-md-4">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Jogo da Velha</h5>
+        <p class="card-text">
+          Aplicação em JavaScript com lógica de jogo, manipulação de DOM
+          e controle de estado.
+        </p>
+        <a href="https://github.com/weslleymarcaldev/JogoDaVelha" target="_blank" class="btn btn-primary">Ver no GitHub</a>
+      </div>
+    </div>
+  </div>
 
-</body>
+</div>
+
+  </section>  <!-- CONTATO -->  <section class="container text-center">
+    <h2 class="mb-4">📫 Contato</h2>
+    <p>
+      <strong>LinkedIn:</strong>
+      <a href="https://www.linkedin.com/in/weslleymarcal" target="_blank">linkedin.com/in/weslleymarcal</a>
+    </p>
+    <p>
+      <strong>E-mail:</strong>
+      <a href="mailto:weslley@wm.dev.br">weslley@wm.dev.br</a>
+    </p>
+  </section>  <footer>
+    © 2025 Weslley Marçal · Desenvolvedor Backend / Full Stack
+  </footer>  <!-- Bootstrap JS -->  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script></body>
 </html>
