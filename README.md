@@ -1,26 +1,109 @@
-# 👋 Olá! Eu sou Weslley Marçal
+👋 Weslley Marçal
 
-💻 **Desenvolvedor Web** com experiência em JavaScript, jQuery, MySQL e Golang.  
-🎓 **Estudante de Ciência da Computação** na Estácio de Sá em Belo Horizonte.  
-🌐 **LinkedIn**: [weslleymarcal](https://www.linkedin.com/in/weslleymarcal)
-🌐 Tecnologias: JavaScript, Golang, C#, React, MySQL e PostgreSQL. 
+Desenvolvedor Web Full Stack com foco em Backend, atuando na construção de APIs REST, lógica de negócio, integração com bancos de dados relacionais e organização de projetos reais.
 
-## 🚀 Projetos Destacados
+🎓 Estudante de Ciência da Computação — Estácio de Sá (Belo Horizonte)
+💼 Interesse em oportunidades como Desenvolvedor Backend / Full Stack Júnior–Pleno
 
-- [**dioFrontend**](https://github.com/weslleymarcaldev/dioFrontend): Bootcamp Inter Frontend Developer - uma das maiores e mais completas plataformas digitais de serviços financeiros e não financeiros do Brasil.
-- [**Square**](https://github.com/weslleymarcaldev/Square): Projeto contendo configurações de workspace para desenvolvimento.
-- [**crud-go**](https://github.com/weslleymarcaldev/crud-go): Implementação de um CRUD utilizando Go.
-- [**JogoDaVelha**](https://github.com/weslleymarcaldev/JogoDaVelha): Jogo da velha desenvolvido em JavaScript.
 
-## 📈 Estatísticas do GitHub
+---
 
-![Estatísticas do GitHub de Weslley Marçal](https://github-readme-stats.vercel.app/api?username=weslleymarcaldev&show_icons=true&theme=radical)
+⚙️ Stack Principal
 
-## 🏆 Conquistas
+Backend
 
-![Conquistas do GitHub de Weslley Marçal](https://github-profile-trophy.vercel.app/?username=weslleymarcaldev&theme=dracula)
+Go (APIs REST, CRUD, organização de camadas)
 
-## 📫 Conecte-se comigo
-- **LinkedIn**: [weslleymarcal](https://www.linkedin.com/in/weslleymarcal)
-- **E-mail**: [weslley@wm.dev.br](mailto:weslley@wm.dev.br)
-- **Portfólio**: [weslleymarcal](https://weslleymarcaldev.github.io/weslleymarcaldev)
+Node.js / JavaScript
+
+C# (base sólida)
+
+
+Frontend
+
+React
+
+JavaScript / jQuery
+
+HTML5 / CSS3
+
+
+Banco de Dados
+
+PostgreSQL
+
+MySQL
+
+
+Outros
+
+Git / GitHub
+
+Consumo e criação de APIs
+
+Organização de projetos e boas práticas
+
+
+
+---
+
+🚀 Projetos em Destaque
+
+🔹 crud-go
+
+API REST desenvolvida em Go, implementando operações CRUD completas, estrutura organizada por camadas e persistência em banco de dados relacional.
+
+➡️ https://github.com/weslleymarcaldev/crud-go
+
+
+---
+
+🔹 dioFrontend
+
+Projeto desenvolvido durante o Bootcamp Inter Frontend Developer (DIO), aplicando conceitos práticos de frontend moderno, consumo de APIs e organização de código.
+
+➡️ https://github.com/weslleymarcaldev/dioFrontend
+
+
+---
+
+🔹 Square
+
+Repositório com configurações de workspace voltadas para produtividade e padronização do ambiente de desenvolvimento.
+
+➡️ https://github.com/weslleymarcaldev/Square
+
+
+---
+
+🔹 JogoDaVelha
+
+Aplicação em JavaScript com lógica de jogo, manipulação de DOM e controle de estado.
+
+➡️ https://github.com/weslleymarcaldev/JogoDaVelha
+
+
+---
+
+📊 GitHub em Números
+
+
+
+
+
+
+---
+
+📫 Contato
+
+LinkedIn: https://www.linkedin.com/in/weslleymarcal
+
+E-mail: weslley@wm.dev.br
+
+Portfólio: https://weslleymarcaldev.github.io/weslleymarcaldev
+
+
+
+---
+
+💡 Perfil focado em evolução constante, código limpo e projetos que resolvem problemas reais.
