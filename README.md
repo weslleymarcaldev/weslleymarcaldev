@@ -34,17 +34,20 @@ Desenvolvedor Web **Full Stack** com foco em **Backend**, atuando no desenvolvim
 
 ### 🚀 Projetos em Destaque
 
-- **[crud-go](https://github.com/weslleymarcaldev/crud-go)**  
-  API REST em Go com CRUD completo, arquitetura em camadas e persistência em banco relacional.
+- **[controleFinanceiro](https://github.com/weslleymarcaldev/controleFinanceiro)**  
+  Sistema de controle financeiro com foco em organização de dados, regras de negócio, persistência em banco relacional e estruturação backend.
 
-- **[dioFrontend](https://github.com/weslleymarcaldev/dioFrontend)**  
-  Projeto do Bootcamp Inter Frontend Developer (DIO), aplicando conceitos modernos de frontend e consumo de APIs.
+- **[weslleymarcaldev](https://github.com/weslleymarcaldev/weslleymarcaldev)**  
+  Repositório do portfólio pessoal, centralizando projetos, informações profissionais e apresentação técnica.
 
-- **[Square](https://github.com/weslleymarcaldev/Square)**  
-  Repositório de configuração de workspace focado em produtividade e padronização do ambiente de desenvolvimento.
+- **[cdd](https://github.com/weslleymarcaldev/cdd)**  
+  Projeto voltado para estudo e aplicação de conceitos de organização de código, estruturação de projetos e boas práticas de desenvolvimento.
 
-- **[JogoDaVelha](https://github.com/weslleymarcaldev/JogoDaVelha)**  
-  Aplicação em JavaScript com lógica de jogo, manipulação de DOM e controle de estado.
+- **[datascience](https://github.com/weslleymarcaldev/datascience)**  
+  Repositório de estudos e experimentos com fundamentos de ciência de dados, organização de dados e análises iniciais.
+
+- **[gerenciadorDeTarefas](https://github.com/weslleymarcaldev/gerenciadorDeTarefas)**  
+  Aplicação para gerenciamento de tarefas, explorando CRUD, lógica de aplicação e organização de funcionalidades.
 
 ---
 
@@ -83,17 +86,20 @@ Desenvolvedor Web **Full Stack** com foco em **Backend**, atuando no desenvolvim
 
 ### 🚀 Featured Projects
 
-- **[crud-go](https://github.com/weslleymarcaldev/crud-go)**  
-  REST API built with Go, implementing full CRUD operations, layered architecture and relational database persistence.
+- **[controleFinanceiro](https://github.com/weslleymarcaldev/controleFinanceiro)**  
+  Financial control system focused on business rules, relational database persistence and backend structure.
 
-- **[dioFrontend](https://github.com/weslleymarcaldev/dioFrontend)**  
-  Project developed during the Inter Frontend Developer Bootcamp (DIO), focused on modern frontend practices and API consumption.
+- **[weslleymarcaldev](https://github.com/weslleymarcaldev/weslleymarcaldev)**  
+  Personal portfolio repository showcasing projects, technical skills and professional profile.
 
-- **[Square](https://github.com/weslleymarcaldev/Square)**  
-  Workspace configuration repository focused on productivity and development environment standardization.
+- **[cdd](https://github.com/weslleymarcaldev/cdd)**  
+  Project focused on code organization, project structure and software development best practices.
 
-- **[TicTacToe (JogoDaVelha)](https://github.com/weslleymarcaldev/JogoDaVelha)**  
-  JavaScript application featuring game logic, DOM manipulation and state control.
+- **[datascience](https://github.com/weslleymarcaldev/datascience)**  
+  Repository for data science fundamentals, data organization and early-stage analysis experiments.
+
+- **[gerenciadorDeTarefas](https://github.com/weslleymarcaldev/gerenciadorDeTarefas)**  
+  Task management application exploring CRUD operations, application logic and feature organization.
 
 ---
 
