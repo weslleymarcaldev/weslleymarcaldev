@@ -66,7 +66,7 @@ Desenvolvedor Web **Full Stack** com foco em **Backend**, atuando no desenvolvim
 
 - 🔗 LinkedIn: https://www.linkedin.com/in/weslleymarcal  
 - 📧 E-mail: **weslley@wm.dev.br**  
-- 🌐 Portfólio: https://weslleymarcaldev.github.io/weslleymarcaldev  
+- 🌐 Portfólio: https://wm.dev.br/  
 
 ---
 
@@ -129,7 +129,7 @@ Desenvolvedor Web **Full Stack** com foco em **Backend**, atuando no desenvolvim
 
 - 🔗 LinkedIn: https://www.linkedin.com/in/weslleymarcal  
 - 📧 Email: **weslley@wm.dev.br**  
-- 🌐 Portfolio: https://weslleymarcaldev.github.io/weslleymarcaldev  
+- 🌐 Portfolio: https://wm.dev.br/  
 
 ---
 
