@@ -57,6 +57,6 @@ Profissional com sólida experiência no desenvolvimento e manutenção de aplic
 - **Versionamento:** Git
 - **Metodologia:** SCRUM
 
----
+--- 
 
 📌 *Documento técnico criado para fins de avaliação profissional e recrutamento.*
