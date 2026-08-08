@@ -79,6 +79,20 @@
   }
   .card-link{font-size:.88rem;font-weight:600;color:var(--accent);display:inline-flex;align-items:center;gap:6px}
   .card-link:hover{gap:10px;transition:gap .15s ease}
+  .card-links{display:flex;flex-wrap:wrap;gap:16px;align-items:center}
+  .card-links .primary{color:var(--accent-2)}
+  .card-links .card-link:not(.primary){color:var(--muted);font-weight:500}
+  .card-links .card-link:not(.primary):hover{color:var(--text)}
+
+  /* Production */
+  .prod-card{
+    background:linear-gradient(135deg,var(--surface),var(--surface-2));
+    border:1px solid var(--border);border-radius:var(--radius);padding:28px;
+    display:flex;gap:28px;align-items:center;justify-content:space-between;flex-wrap:wrap;
+  }
+  .prod-body{flex:1;min-width:280px}
+  .prod-body h3{font-size:1.25rem;font-weight:700;margin-bottom:10px}
+  .prod-body p{color:var(--muted);font-size:.95rem;margin-bottom:16px;max-width:60ch}
 
   /* Stack */
   .stack-grid{display:grid;gap:26px;grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
@@ -113,6 +127,7 @@
     <div class="logo">Weslley <span>Marçal</span></div>
     <div class="nav-links">
       <a href="#ferramentas">Ferramentas</a>
+      <a href="#producao">Em produção</a>
       <a href="#projetos">Projetos</a>
       <a href="#stack">Stack</a>
       <a href="#sobre">Sobre</a>
@@ -156,7 +171,10 @@
           <span class="tag">TypeScript</span><span class="tag">VS Code API</span>
           <span class="tag">Node.js</span><span class="tag">IA</span>
         </div>
-        <a class="card-link" href="https://github.com/weslleymarcaldev/limpacache" target="_blank" rel="noopener">Ver repositório →</a>
+        <div class="card-links">
+          <a class="card-link primary" href="https://marketplace.visualstudio.com/items?itemName=weslleymarcal.limpacache" target="_blank" rel="noopener">Instalar no Marketplace →</a>
+          <a class="card-link" href="https://github.com/weslleymarcaldev/limpacache" target="_blank" rel="noopener">Código</a>
+        </div>
       </div>
 
       <div class="card">
@@ -170,7 +188,10 @@
           <span class="tag">Node.js</span><span class="tag">VS Code API</span>
           <span class="tag">Geração de código</span>
         </div>
-        <a class="card-link" href="https://github.com/weslleymarcaldev/crud-instantaneo" target="_blank" rel="noopener">Ver repositório →</a>
+        <div class="card-links">
+          <a class="card-link primary" href="https://marketplace.visualstudio.com/items?itemName=weslleymarcal.crud-instantaneo-free" target="_blank" rel="noopener">Instalar no Marketplace →</a>
+          <a class="card-link" href="https://github.com/weslleymarcaldev/crud-instantaneo" target="_blank" rel="noopener">Código</a>
+        </div>
       </div>
 
       <div class="card">
@@ -183,9 +204,36 @@
           <span class="tag">JavaScript</span><span class="tag">VS Code API</span>
           <span class="tag">YAML</span>
         </div>
-        <a class="card-link" href="https://github.com/weslleymarcaldev/json-beautifier" target="_blank" rel="noopener">Ver repositório →</a>
+        <div class="card-links">
+          <a class="card-link primary" href="https://marketplace.visualstudio.com/items?itemName=weslleymarcal.json-beautifier" target="_blank" rel="noopener">Instalar no Marketplace →</a>
+          <a class="card-link" href="https://github.com/weslleymarcaldev/json-beautifier" target="_blank" rel="noopener">Código</a>
+        </div>
       </div>
 
+    </div>
+  </div>
+</section>
+
+<section id="producao">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>Em produção</h2>
+      <p>Sistema desenvolvido e mantido por mim, em uso real.</p>
+    </div>
+    <div class="prod-card">
+      <div class="prod-body">
+        <h3>WexPore — Gestão Financeira</h3>
+        <p>
+          Sistema web de gestão financeira com autenticação de usuários, controle de acesso
+          administrativo, interface responsiva e tema claro/escuro. Desenvolvido do banco de dados
+          à interface.
+        </p>
+        <div class="tags">
+          <span class="tag">PHP</span><span class="tag">MySQL</span>
+          <span class="tag">JavaScript</span><span class="tag">Autenticação</span>
+        </div>
+      </div>
+      <a class="btn btn-primary" href="https://financeiro.wexpore.com.br/" target="_blank" rel="noopener">Acessar sistema</a>
     </div>
   </div>
 </section>
