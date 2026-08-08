@@ -1,136 +1,103 @@
-# 👋 Weslley Marçal
+# Weslley Marçal
 
-Desenvolvedor Web **Full Stack** com foco em **Backend**, atuando no desenvolvimento e manutenção de aplicações web, integração entre sistemas, APIs REST, lógica de negócio e organização de projetos reais.
+**Desenvolvedor Full Stack — JavaScript / TypeScript**
 
-🎓 **Ciência da Computação** — Estácio de Sá (Belo Horizonte)  
-💼 **Em busca de oportunidades** como Desenvolvedor **Backend / Full Stack (Júnior–Pleno)**
+Construo aplicações web com Node, Vue e APIs REST — e ferramentas para desenvolvedores.
+Publiquei três extensões para o VS Code que resolvem problemas que eu mesmo tinha no dia a dia.
 
----
+🎓 Ciência da Computação — Estácio (Belo Horizonte, MG)
+💼 Aberto a oportunidades como Desenvolvedor **Full Stack / Backend** (Júnior–Pleno)
 
-## 🇧🇷 Português
-
-### ⚙️ Stack Principal
-
-#### 🧠 Backend
-- **C# / .NET** — Desenvolvimento e manutenção de **APIs RESTful**
-- Integrações de sistemas e regras de negócio
-- Integração com **TOTVS**
-- Processos e integrações com **Fusion (BPM)**
-
-#### 🎨 Frontend Web
-- **JavaScript**
-- **HTML5**
-- **CSS3**
-- Desenvolvimento e manutenção de aplicações web
-
-#### 📱 Mobile
-- **Android** — Desenvolvimento de aplicativos móveis
-
-#### 🧩 Análise de Sistemas
-- Levantamento de requisitos
-- Análise e especificação de sistemas
-- Modelagem de soluções orientadas ao negócio
-
-#### 🗄️ Dados & Integrações
-- Integração entre sistemas
-- Consumo e exposição de APIs REST
-- Comunicação entre serviços
-
-#### 🛠️ Ferramentas & Metodologias
-- **Git** — Controle de versão
-- **SCRUM / Metodologias Ágeis**
-- Trabalho colaborativo e organização de entregas
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/weslleymarcal)
+[![Email](https://img.shields.io/badge/weslley@wm.dev.br-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:weslley@wm.dev.br)
+[![Portfólio](https://img.shields.io/badge/wm.dev.br-111827?style=flat&logo=googlechrome&logoColor=white)](https://wm.dev.br/)
 
 ---
 
-### 🚀 Projetos em Destaque
+## Stack
 
-- **[controleFinanceiro](https://github.com/weslleymarcaldev/controleFinanceiro)**  
-  Sistema de controle financeiro com foco em regras de negócio, persistência em banco relacional, APIs REST e organização backend.
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
+![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=flat&logo=vuedotjs&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=flat&logo=bootstrap&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
 
-- **[weslleymarcaldev](https://github.com/weslleymarcaldev/weslleymarcaldev)**  
-  Repositório do portfólio pessoal, centralizando projetos, stack técnica e apresentação profissional.
-
-- **[cdd](https://github.com/weslleymarcaldev/cdd)**  
-  Projeto voltado para estudo e aplicação de organização de código, estruturação de projetos e boas práticas de desenvolvimento.
-
-- **[datascience](https://github.com/weslleymarcaldev/datascience)**  
-  Repositório de estudos e experimentos com fundamentos de ciência de dados e organização de informações.
-
-- **[gerenciadorDeTarefas](https://github.com/weslleymarcaldev/gerenciadorDeTarefas)**  
-  Aplicação para gerenciamento de tarefas, explorando CRUD, lógica de aplicação e organização de funcionalidades.
-
----
-
-### 📫 Contato
-
-- 🔗 LinkedIn: https://www.linkedin.com/in/weslleymarcal  
-- 📧 E-mail: **weslley@wm.dev.br**  
-- 🌐 Portfólio: https://wm.dev.br/  
+**Frontend** — JavaScript, TypeScript, Vue.js, HTML5, CSS3, Bootstrap, jQuery
+**Backend** — Node.js, Express, APIs REST, PHP (CodeIgniter 4)
+**Dados** — MySQL, SQL Server
+**Outros** — Git, SCRUM, C#/.NET, integrações corporativas
 
 ---
 
-## 🇺🇸 English
+## Ferramentas que publiquei
 
-### ⚙️ Main Stack
+Extensões para VS Code, do problema à publicação — incluindo interface, documentação e distribuição.
 
-#### 🧠 Backend
-- **C# / .NET** — RESTful API development and maintenance
-- System integrations and business rules
-- **TOTVS** integration
-- **Fusion (BPM)** processes and integrations
+| Projeto | O que faz | Stack |
+|---|---|---|
+| **[LimpaCache](https://github.com/weslleymarcaldev/limpacache)** | Detecta e limpa 40+ tipos de cache de projeto e IDE, com análise assistida por IA e agendamento via cron | TypeScript |
+| **[CRUD Instantâneo](https://github.com/weslleymarcaldev/crud-instantaneo)** | Gera Model, Controller, rotas e SQL a partir de uma definição de entidade | Node.js |
+| **[JSON Beautifier](https://github.com/weslleymarcaldev/json-beautifier)** | Formata, minifica e converte JSON para YAML sem sair do editor | JavaScript |
 
-#### 🎨 Web Frontend
-- **JavaScript**
-- **HTML5**
-- **CSS3**
-- Web application development and maintenance
+## Aplicações web
 
-#### 📱 Mobile
-- **Android** — Mobile application development
-
-#### 🧩 Systems Analysis
-- Requirements gathering
-- Systems analysis and specification
-- Business-oriented solution design
-
-#### 🗄️ Data & Integrations
-- System-to-system integration
-- REST API consumption and exposure
-- Service communication
-
-#### 🛠️ Tools & Methodologies
-- **Git** — Version control
-- **SCRUM / Agile methodologies**
-- Collaborative development and delivery organization
+| Projeto | O que faz | Stack |
+|---|---|---|
+| **[Projetos de Engenharia](https://github.com/weslleymarcaldev/projetosDeEngenharia)** | CRUD completo com frontend modular, API REST e testes unitários | Vue, Node, Express, Jest |
+| **[Gerenciador de Tarefas](https://github.com/weslleymarcaldev/gerenciadorDeTarefas)** | Aplicação de tarefas com frontend e API separados | Vue, Node |
+| **[CodeMasters](https://github.com/weslleymarcaldev/CodeMasters)** | Landing page institucional responsiva com parallax e gráficos dinâmicos | CodeIgniter 4, Bootstrap 5, Chart.js |
 
 ---
 
-### 🚀 Featured Projects
+## Contato
 
-- **[controleFinanceiro](https://github.com/weslleymarcaldev/controleFinanceiro)**  
-  Financial control system focused on business rules, REST APIs, relational database persistence and backend structure.
+- **LinkedIn** — [linkedin.com/in/weslleymarcal](https://www.linkedin.com/in/weslleymarcal)
+- **E-mail** — [weslley@wm.dev.br](mailto:weslley@wm.dev.br)
+- **Portfólio** — [wm.dev.br](https://wm.dev.br/)
 
-- **[weslleymarcaldev](https://github.com/weslleymarcaldev/weslleymarcaldev)**  
-  Personal portfolio repository showcasing projects, technical skills and professional profile.
+<details>
+<summary><strong>🇺🇸 English version</strong></summary>
 
-- **[cdd](https://github.com/weslleymarcaldev/cdd)**  
-  Project focused on code organization, project structure and software development best practices.
+<br>
 
-- **[datascience](https://github.com/weslleymarcaldev/datascience)**  
-  Repository for data science fundamentals, data organization and early-stage analysis experiments.
+**Full Stack Developer — JavaScript / TypeScript**
 
-- **[gerenciadorDeTarefas](https://github.com/weslleymarcaldev/gerenciadorDeTarefas)**  
-  Task management application exploring CRUD operations, application logic and feature organization.
+I build web applications with Node, Vue and REST APIs — and tools for developers.
+I've published three VS Code extensions that solve problems I ran into myself.
 
----
+🎓 Computer Science — Estácio (Belo Horizonte, Brazil)
+💼 Open to **Full Stack / Backend** Developer roles (Junior–Mid)
 
-### 📫 Contact
+### Stack
 
-- 🔗 LinkedIn: https://www.linkedin.com/in/weslleymarcal  
-- 📧 Email: **weslley@wm.dev.br**  
-- 🌐 Portfolio: https://wm.dev.br/  
+**Frontend** — JavaScript, TypeScript, Vue.js, HTML5, CSS3, Bootstrap, jQuery
+**Backend** — Node.js, Express, REST APIs, PHP (CodeIgniter 4)
+**Data** — MySQL, SQL Server
+**Other** — Git, SCRUM, C#/.NET, enterprise integrations
 
----
+### Tools I've published
 
-💡 **Profile focused on continuous growth, clean code and real-world problem solving.**
+| Project | What it does | Stack |
+|---|---|---|
+| **[LimpaCache](https://github.com/weslleymarcaldev/limpacache)** | Detects and clears 40+ project and IDE cache types, with AI-assisted analysis and cron scheduling | TypeScript |
+| **[CRUD Instantâneo](https://github.com/weslleymarcaldev/crud-instantaneo)** | Generates Model, Controller, routes and SQL from an entity definition | Node.js |
+| **[JSON Beautifier](https://github.com/weslleymarcaldev/json-beautifier)** | Formats, minifies and converts JSON to YAML without leaving the editor | JavaScript |
+
+### Web applications
+
+| Project | What it does | Stack |
+|---|---|---|
+| **[Projetos de Engenharia](https://github.com/weslleymarcaldev/projetosDeEngenharia)** | Full CRUD with modular frontend, REST API and unit tests | Vue, Node, Express, Jest |
+| **[Task Manager](https://github.com/weslleymarcaldev/gerenciadorDeTarefas)** | Task application with separate frontend and API | Vue, Node |
+| **[CodeMasters](https://github.com/weslleymarcaldev/CodeMasters)** | Responsive institutional landing page with parallax and dynamic charts | CodeIgniter 4, Bootstrap 5, Chart.js |
+
+### Contact
+
+- **LinkedIn** — [linkedin.com/in/weslleymarcal](https://www.linkedin.com/in/weslleymarcal)
+- **Email** — [weslley@wm.dev.br](mailto:weslley@wm.dev.br)
+- **Portfolio** — [wm.dev.br](https://wm.dev.br/)
+
+</details>
