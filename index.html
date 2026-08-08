@@ -1,101 +1,336 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Weslley Marçal | Desenvolvedor Full Stack — JavaScript, TypeScript, Node, Vue</title>
+<meta name="description" content="Desenvolvedor Full Stack em Belo Horizonte. JavaScript, TypeScript, Node.js, Vue e APIs REST. Autor de três extensões para o VS Code.">
+<meta name="author" content="Weslley Marçal">
+<meta property="og:title" content="Weslley Marçal | Desenvolvedor Full Stack">
+<meta property="og:description" content="JavaScript, TypeScript, Node, Vue e APIs REST. Autor de três extensões para o VS Code.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://wm.dev.br/">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
+<style>
+  :root{
+    --bg:#0B0F17; --surface:#131926; --surface-2:#1B2333; --border:#252F42;
+    --text:#E6EAF2; --muted:#94A3B8; --accent:#5B9CFF; --accent-2:#39D3A0;
+    --radius:14px; --max:1080px;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{
+    background:var(--bg); color:var(--text);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,Helvetica,Arial,sans-serif;
+    line-height:1.65; -webkit-font-smoothing:antialiased;
+  }
+  a{color:inherit;text-decoration:none}
+  .wrap{max-width:var(--max);margin:0 auto;padding:0 24px}
 
-  <title>Weslley Marçal | Desenvolvedor Backend C# .NET | APIs REST | TOTVS</title>
+  /* Nav */
+  nav{position:sticky;top:0;z-index:50;background:rgba(11,15,23,.85);backdrop-filter:blur(10px);border-bottom:1px solid var(--border)}
+  nav .wrap{display:flex;align-items:center;justify-content:space-between;height:62px}
+  .logo{font-weight:700;letter-spacing:-.02em;font-size:1.05rem}
+  .logo span{color:var(--accent)}
+  .nav-links{display:flex;gap:26px;font-size:.92rem;color:var(--muted)}
+  .nav-links a:hover{color:var(--text)}
+  @media(max-width:640px){.nav-links{display:none}}
 
-  <!-- SEO agressivo -->
-  <meta name="description" content="Weslley Marçal, Desenvolvedor Backend / Full Stack especializado em C# .NET, APIs REST, integrações com TOTVS, BPM (Fusion), Git e Scrum. Experiência em sistemas corporativos e regras de negócio." />
+  /* Hero */
+  header{padding:96px 0 72px;border-bottom:1px solid var(--border)}
+  .eyebrow{
+    display:inline-block;font-size:.78rem;letter-spacing:.08em;text-transform:uppercase;
+    color:var(--accent-2);border:1px solid rgba(57,211,160,.3);background:rgba(57,211,160,.07);
+    padding:5px 12px;border-radius:999px;margin-bottom:22px;font-weight:600;
+  }
+  h1{font-size:clamp(2.1rem,5.5vw,3.4rem);line-height:1.12;letter-spacing:-.03em;font-weight:800;margin-bottom:18px}
+  h1 em{font-style:normal;color:var(--accent)}
+  .lead{font-size:clamp(1.02rem,2.1vw,1.18rem);color:var(--muted);max-width:62ch;margin-bottom:32px}
+  .cta{display:flex;flex-wrap:wrap;gap:12px}
+  .btn{
+    display:inline-flex;align-items:center;gap:8px;padding:11px 20px;border-radius:10px;
+    font-weight:600;font-size:.94rem;transition:transform .15s ease,background .15s ease,border-color .15s ease;
+  }
+  .btn:hover{transform:translateY(-2px)}
+  .btn-primary{background:var(--accent);color:#06101F}
+  .btn-primary:hover{background:#7BB0FF}
+  .btn-ghost{border:1px solid var(--border);color:var(--text);background:var(--surface)}
+  .btn-ghost:hover{border-color:var(--accent)}
 
-  <meta name="keywords" content="Desenvolvedor Backend, C# .NET, APIs REST, TOTVS, Fusion BPM, Desenvolvedor Full Stack, Git, Scrum, Sistemas Corporativos" />
-  <meta name="author" content="Weslley Marçal" />
+  /* Sections */
+  section{padding:72px 0;border-bottom:1px solid var(--border)}
+  .sec-head{margin-bottom:34px}
+  h2{font-size:1.6rem;letter-spacing:-.02em;font-weight:700;margin-bottom:8px}
+  .sec-head p{color:var(--muted);font-size:.97rem;max-width:60ch}
 
-  <!-- Open Graph -->
-  <meta property="og:title" content="Weslley Marçal | Desenvolvedor Backend C# .NET" />
-  <meta property="og:description" content="Portfólio profissional com foco em Backend, APIs REST, integrações corporativas e sistemas empresariais." />
-  <meta property="og:type" content="website" />
+  /* Cards */
+  .grid{display:grid;gap:18px;grid-template-columns:repeat(auto-fit,minmax(290px,1fr))}
+  .card{
+    background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);
+    padding:24px;display:flex;flex-direction:column;transition:border-color .18s ease,transform .18s ease;
+  }
+  .card:hover{border-color:var(--accent);transform:translateY(-3px)}
+  .card h3{font-size:1.08rem;font-weight:700;margin-bottom:8px;display:flex;align-items:center;gap:9px}
+  .card p{color:var(--muted);font-size:.93rem;flex:1;margin-bottom:16px}
+  .tags{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:16px}
+  .tag{
+    font-size:.74rem;font-weight:600;letter-spacing:.02em;padding:3px 9px;border-radius:6px;
+    background:var(--surface-2);color:var(--muted);border:1px solid var(--border);
+  }
+  .card-link{font-size:.88rem;font-weight:600;color:var(--accent);display:inline-flex;align-items:center;gap:6px}
+  .card-link:hover{gap:10px;transition:gap .15s ease}
 
-  <!-- Bootstrap -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  /* Stack */
+  .stack-grid{display:grid;gap:26px;grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
+  .stack-col h4{font-size:.78rem;text-transform:uppercase;letter-spacing:.09em;color:var(--accent-2);margin-bottom:12px;font-weight:700}
+  .stack-col ul{list-style:none;display:flex;flex-wrap:wrap;gap:7px}
+  .stack-col li{
+    font-size:.86rem;padding:5px 11px;border-radius:8px;
+    background:var(--surface);border:1px solid var(--border);color:var(--text);
+  }
 
-  <style>
-    body {
-      background-color: #f4f6f9;
-      color: #212529;
-    }
+  /* About */
+  .about-grid{display:grid;gap:40px;grid-template-columns:1.4fr 1fr}
+  @media(max-width:760px){.about-grid{grid-template-columns:1fr}}
+  .about p{color:var(--muted);margin-bottom:14px;font-size:.98rem}
+  .about strong{color:var(--text);font-weight:600}
+  .facts{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:22px}
+  .fact{display:flex;gap:12px;padding:11px 0;border-bottom:1px solid var(--border);font-size:.91rem}
+  .fact:last-child{border-bottom:0}
+  .fact-k{color:var(--muted);min-width:88px}
+  .fact-v{font-weight:600}
 
-    header {
-      background: linear-gradient(135deg, #1f2933, #111827);
-      color: #fff;
-      padding: 4rem 1rem;
-    }
+  /* Contact */
+  .contact-row{display:flex;flex-wrap:wrap;gap:12px;margin-top:8px}
 
-    header h1 {
-      font-weight: 700;
-    }
-
-    section {
-      padding: 3rem 0;
-    }
-
-    .badge {
-      font-weight: 500;
-    }
-
-    footer {
-      background-color: #111827;
-      color: #9ca3af;
-      padding: 2rem 1rem;
-      text-align: center;
-      font-size: 0.9rem;
-    }
-  </style>
+  footer{padding:34px 0;color:var(--muted);font-size:.86rem;display:flex;flex-wrap:wrap;gap:10px;justify-content:space-between}
+</style>
 </head>
-
 <body>
 
-<header class="text-center">
-  <h1>Weslley Marçal</h1>
-  <h2 class="h5 mt-3">
-    Desenvolvedor Backend / Full Stack — C# .NET | APIs REST | Integrações Corporativas
-  </h2>
+<nav>
+  <div class="wrap">
+    <div class="logo">Weslley <span>Marçal</span></div>
+    <div class="nav-links">
+      <a href="#ferramentas">Ferramentas</a>
+      <a href="#projetos">Projetos</a>
+      <a href="#stack">Stack</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#contato">Contato</a>
+    </div>
+  </div>
+</nav>
 
-  <p class="mt-3">
-    Atuação no desenvolvimento de sistemas corporativos, APIs RESTful em C#/.NET,
-    integrações com TOTVS e BPM, análise de sistemas e aplicação de boas práticas
-    em ambientes ágeis.
-  </p>
-
-  <div class="d-flex justify-content-center gap-3 mt-4">
-    <a href="experiencia.html" class="btn btn-warning">
-      Experiência Técnica
-    </a>
-    <a href="https://www.linkedin.com/in/weslleymarcal" target="_blank" class="btn btn-primary">
-      LinkedIn
-    </a>
+<header>
+  <div class="wrap">
+    <span class="eyebrow">Disponível para oportunidades</span>
+    <h1>Desenvolvedor Full Stack<br><em>JavaScript &amp; TypeScript</em></h1>
+    <p class="lead">
+      Construo aplicações web com Node, Vue e APIs REST — e ferramentas para desenvolvedores.
+      Publiquei três extensões para o VS Code, do problema real até a distribuição.
+    </p>
+    <div class="cta">
+      <a class="btn btn-primary" href="#ferramentas">Ver projetos</a>
+      <a class="btn btn-ghost" href="https://github.com/weslleymarcaldev" target="_blank" rel="noopener">GitHub</a>
+      <a class="btn btn-ghost" href="https://www.linkedin.com/in/weslleymarcal" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
   </div>
 </header>
 
-<section class="container">
-  <h2 class="text-center mb-4">⚙️ Stack Principal</h2>
-  <div class="d-flex flex-wrap justify-content-center gap-2">
-    <span class="badge bg-dark">C#</span>
-    <span class="badge bg-dark">.NET</span>
-    <span class="badge bg-dark">APIs REST</span>
-    <span class="badge bg-dark">TOTVS</span>
-    <span class="badge bg-dark">Fusion BPM</span>
-    <span class="badge bg-dark">JavaScript</span>
-    <span class="badge bg-dark">HTML5</span>
-    <span class="badge bg-dark">CSS3</span>
-    <span class="badge bg-dark">Git</span>
-    <span class="badge bg-dark">SCRUM</span>
+<section id="ferramentas">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>Ferramentas para desenvolvedores</h2>
+      <p>Extensões para VS Code que eu construí, documentei e publiquei — incluindo interface, empacotamento e distribuição.</p>
+    </div>
+    <div class="grid">
+
+      <div class="card">
+        <h3>🧹 LimpaCache</h3>
+        <p>
+          Limpador inteligente de cache para VS Code. Detecta mais de 40 tipos de cache — Node, Next, Nuxt,
+          Python, Java, Rust, .NET, PHP — mostra o consumo de disco na status bar e permite limpeza seletiva.
+          A versão Pro adiciona análise assistida por IA e agendamento por expressão cron.
+        </p>
+        <div class="tags">
+          <span class="tag">TypeScript</span><span class="tag">VS Code API</span>
+          <span class="tag">Node.js</span><span class="tag">IA</span>
+        </div>
+        <a class="card-link" href="https://github.com/weslleymarcaldev/limpacache" target="_blank" rel="noopener">Ver repositório →</a>
+      </div>
+
+      <div class="card">
+        <h3>⚡ CRUD Instantâneo</h3>
+        <p>
+          Gerador de código para VS Code. A partir de uma definição de entidade no formato
+          <code>nome:string,preco:decimal</code>, produz Model, Controller, rotas e SQL básico —
+          eliminando o boilerplate repetitivo de todo início de projeto.
+        </p>
+        <div class="tags">
+          <span class="tag">Node.js</span><span class="tag">VS Code API</span>
+          <span class="tag">Geração de código</span>
+        </div>
+        <a class="card-link" href="https://github.com/weslleymarcaldev/crud-instantaneo" target="_blank" rel="noopener">Ver repositório →</a>
+      </div>
+
+      <div class="card">
+        <h3>📄 JSON Beautifier &amp; Converter</h3>
+        <p>
+          Formata, minifica e converte JSON para YAML direto no editor, sem dependências externas
+          e sem precisar colar dados em sites de terceiros. Documentação bilíngue e atalho dedicado.
+        </p>
+        <div class="tags">
+          <span class="tag">JavaScript</span><span class="tag">VS Code API</span>
+          <span class="tag">YAML</span>
+        </div>
+        <a class="card-link" href="https://github.com/weslleymarcaldev/json-beautifier" target="_blank" rel="noopener">Ver repositório →</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="projetos">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>Aplicações web</h2>
+      <p>Projetos com separação entre frontend e API, banco de dados e testes.</p>
+    </div>
+    <div class="grid">
+
+      <div class="card">
+        <h3>🏗️ Projetos de Engenharia</h3>
+        <p>
+          CRUD completo com frontend modular em Vue e SCSS, API REST em Node/Express e
+          testes unitários com Jest cobrindo as duas pontas.
+        </p>
+        <div class="tags">
+          <span class="tag">Vue.js</span><span class="tag">Node.js</span>
+          <span class="tag">Express</span><span class="tag">Jest</span><span class="tag">SCSS</span>
+        </div>
+        <a class="card-link" href="https://github.com/weslleymarcaldev/projetosDeEngenharia" target="_blank" rel="noopener">Ver repositório →</a>
+      </div>
+
+      <div class="card">
+        <h3>✅ Gerenciador de Tarefas</h3>
+        <p>
+          Aplicação de tarefas com frontend Vue e API REST em Node separados em camadas independentes,
+          cobrindo criação, listagem, atualização e conclusão.
+        </p>
+        <div class="tags">
+          <span class="tag">Vue.js</span><span class="tag">Node.js</span><span class="tag">API REST</span>
+        </div>
+        <a class="card-link" href="https://github.com/weslleymarcaldev/gerenciadorDeTarefas" target="_blank" rel="noopener">Ver repositório →</a>
+      </div>
+
+      <div class="card">
+        <h3>🎓 CodeMasters</h3>
+        <p>
+          Landing page institucional responsiva com efeito parallax, cards interativos e
+          gráfico dinâmico em Chart.js, construída sobre CodeIgniter 4.
+        </p>
+        <div class="tags">
+          <span class="tag">CodeIgniter 4</span><span class="tag">Bootstrap 5</span>
+          <span class="tag">Chart.js</span><span class="tag">PHP</span>
+        </div>
+        <a class="card-link" href="https://github.com/weslleymarcaldev/CodeMasters" target="_blank" rel="noopener">Ver repositório →</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="stack">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>Stack</h2>
+      <p>Tecnologias que uso com regularidade em projetos pessoais e profissionais.</p>
+    </div>
+    <div class="stack-grid">
+      <div class="stack-col">
+        <h4>Frontend</h4>
+        <ul>
+          <li>JavaScript</li><li>TypeScript</li><li>Vue.js</li>
+          <li>HTML5</li><li>CSS3 / SCSS</li><li>Bootstrap</li><li>jQuery</li>
+        </ul>
+      </div>
+      <div class="stack-col">
+        <h4>Backend</h4>
+        <ul>
+          <li>Node.js</li><li>Express</li><li>APIs REST</li>
+          <li>PHP / CodeIgniter 4</li><li>C# / .NET</li>
+        </ul>
+      </div>
+      <div class="stack-col">
+        <h4>Dados</h4>
+        <ul>
+          <li>MySQL</li><li>SQL Server</li><li>Modelagem relacional</li>
+        </ul>
+      </div>
+      <div class="stack-col">
+        <h4>Ferramentas</h4>
+        <ul>
+          <li>Git</li><li>VS Code API</li><li>Jest</li><li>Vite</li><li>SCRUM</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="sobre">
+  <div class="wrap">
+    <div class="sec-head"><h2>Sobre</h2></div>
+    <div class="about-grid">
+      <div class="about">
+        <p>
+          Sou desenvolvedor full stack em <strong>Belo Horizonte</strong>, com foco em JavaScript e TypeScript.
+          Trabalho no desenvolvimento e manutenção de aplicações web, integração entre sistemas,
+          APIs REST e regras de negócio.
+        </p>
+        <p>
+          O que mais gosto de fazer é <strong>transformar um incômodo recorrente em ferramenta</strong>.
+          Foi assim que nasceram minhas três extensões para o VS Code: cada uma resolve um problema
+          que me atrapalhava no dia a dia, e construí todas do zero — da lógica à documentação e publicação.
+        </p>
+        <p>
+          Também tenho experiência com <strong>C#/.NET</strong> e integrações corporativas
+          (TOTVS, Fusion BPM) em ambiente profissional, além de análise de requisitos e trabalho em times ágeis.
+        </p>
+        <p>
+          Atualmente curso <strong>Ciência da Computação</strong> na Estácio e estou aberto a oportunidades
+          como desenvolvedor full stack ou backend, júnior a pleno.
+        </p>
+      </div>
+      <div class="facts">
+        <div class="fact"><span class="fact-k">Local</span><span class="fact-v">Belo Horizonte, MG</span></div>
+        <div class="fact"><span class="fact-k">Formação</span><span class="fact-v">Ciência da Computação — Estácio</span></div>
+        <div class="fact"><span class="fact-k">Foco</span><span class="fact-v">JavaScript · TypeScript · Node</span></div>
+        <div class="fact"><span class="fact-k">Publicado</span><span class="fact-v">3 extensões VS Code</span></div>
+        <div class="fact"><span class="fact-k">Status</span><span class="fact-v">Aberto a propostas</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contato">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>Contato</h2>
+      <p>Aberto a oportunidades, colaborações e conversas técnicas.</p>
+    </div>
+    <div class="contact-row">
+      <a class="btn btn-primary" href="mailto:weslley@wm.dev.br">weslley@wm.dev.br</a>
+      <a class="btn btn-ghost" href="https://www.linkedin.com/in/weslleymarcal" target="_blank" rel="noopener">LinkedIn</a>
+      <a class="btn btn-ghost" href="https://github.com/weslleymarcaldev" target="_blank" rel="noopener">GitHub</a>
+    </div>
   </div>
 </section>
 
 <footer>
-  © 2025 Weslley Marçal · Desenvolvedor Backend C# .NET
+  <div class="wrap" style="display:flex;flex-wrap:wrap;gap:10px;justify-content:space-between;width:100%">
+    <span>© 2026 Weslley Marçal</span>
+    <span>Desenvolvedor Full Stack · Belo Horizonte, MG</span>
+  </div>
 </footer>
 
 </body>
